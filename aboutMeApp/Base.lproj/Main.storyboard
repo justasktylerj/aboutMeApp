@@ -17,19 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaQ-9o-fmC">
-                                <rect key="frame" x="277" y="562" width="46" height="30"/>
-                                <state key="normal" title="Home"/>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="232demogorgon5e" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-6L-Win">
+                                <rect key="frame" x="70" y="58" width="424" height="237"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My favorite game is Dungeons &amp; Dragons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPU-sm-oEA">
                                 <rect key="frame" x="101" y="325" width="407" height="126"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-6L-Win">
-                                <rect key="frame" x="180" y="119" width="240" height="128"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaQ-9o-fmC">
+                                <rect key="frame" x="236" y="531" width="110" height="44"/>
+                                <state key="normal" title="Home" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -52,37 +54,32 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DST-sy-OyM">
                                 <rect key="frame" x="24" y="20" width="549" height="81"/>
-                                <color key="backgroundColor" red="0.25586284079999999" green="0.54291975920000002" blue="0.86631944439999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Food">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Food" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75J-44-Yfo">
                                 <rect key="frame" x="24" y="109" width="549" height="95"/>
-                                <color key="backgroundColor" red="0.25586284079999999" green="0.54291975920000002" blue="0.86631944439999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Games">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Games" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYw-4B-Q0x">
                                 <rect key="frame" x="24" y="212" width="549" height="112"/>
-                                <color key="backgroundColor" red="0.25586284079999999" green="0.54291975920000002" blue="0.86631944439999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="VideoGames">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="VideoGames" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBI-fT-MoO">
                                 <rect key="frame" x="24" y="332" width="549" height="97"/>
-                                <color key="backgroundColor" red="0.25586284079999999" green="0.54291975920000002" blue="0.86631944439999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="School">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="School" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ln7-Qv-wc8">
                                 <rect key="frame" x="24" y="437" width="549" height="102"/>
-                                <color key="backgroundColor" red="0.25586284079999999" green="0.54291975920000002" blue="0.86631944439999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Programming">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Programming" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                         </subviews>
@@ -105,12 +102,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIb-IM-Aj0">
-                                <rect key="frame" x="277" y="562" width="46" height="30"/>
-                                <state key="normal" title="Home"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PiK-Fh-ZBp">
-                                <rect key="frame" x="180" y="145" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jhigh" translatesAutoresizingMaskIntoConstraints="NO" id="PiK-Fh-ZBp">
+                                <rect key="frame" x="74" y="69" width="388" height="242"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I attened Jordan High School as a Senior" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xa-fr-w0J">
                                 <rect key="frame" x="129" y="342" width="346" height="101"/>
@@ -118,6 +111,12 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIb-IM-Aj0">
+                                <rect key="frame" x="246" y="560" width="108" height="32"/>
+                                <state key="normal" title="Home" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -126,31 +125,33 @@
             </objects>
             <point key="canvasLocation" x="-501" y="566"/>
         </scene>
-        <!--Food-->
+        <!--Shows-->
         <scene sceneID="SUC-uA-tTg">
             <objects>
-                <viewController id="ZC4-RJ-mOI" customClass="Food" sceneMemberID="viewController">
+                <viewController id="ZC4-RJ-mOI" customClass="TVShows" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PA3-bZ-LtU"/>
                         <viewControllerLayoutGuide type="bottom" id="YFN-bq-UwC"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Zzi-l5-IZT">
+                    <view key="view" contentMode="scaleToFill" id="Zzi-l5-IZT" customClass="TVShows">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6P2-v2-Zpv">
-                                <rect key="frame" x="277" y="531" width="46" height="30"/>
-                                <state key="normal" title="Home"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="euN-zc-9sj">
-                                <rect key="frame" x="172" y="74" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="psych" translatesAutoresizingMaskIntoConstraints="NO" id="euN-zc-9sj">
+                                <rect key="frame" x="45" y="74" width="482" height="262"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I love food, including mashed potaoes, Salmon, chicken, and more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsZ-gE-EhV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My favorite TV shows are Doctor who, psych, and a few others." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsZ-gE-EhV">
                                 <rect key="frame" x="20" y="279" width="554" height="215"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6P2-v2-Zpv">
+                                <rect key="frame" x="230" y="517" width="140" height="45"/>
+                                <state key="normal" title="Home" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -171,19 +172,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxe-tV-cSZ">
-                                <rect key="frame" x="277" y="562" width="46" height="30"/>
-                                <state key="normal" title="Home"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uvk-8r-FKe">
-                                <rect key="frame" x="180" y="114" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="krush" translatesAutoresizingMaskIntoConstraints="NO" id="uvk-8r-FKe">
+                                <rect key="frame" x="5" y="0.0" width="595" height="376"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Favorite video gmae series is Kingdom Rush" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUW-3h-sZo">
-                                <rect key="frame" x="158" y="300" width="295" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Favorite video game series is Kingdom Rush" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUW-3h-sZo">
+                                <rect key="frame" x="155" y="366" width="404" height="92"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxe-tV-cSZ">
+                                <rect key="frame" x="244" y="551" width="116" height="41"/>
+                                <state key="normal" title="Home" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -192,10 +195,10 @@
             </objects>
             <point key="canvasLocation" x="233" y="713"/>
         </scene>
-        <!--Programming-->
+        <!--Food-->
         <scene sceneID="pyj-z5-cQB">
             <objects>
-                <viewController id="x7j-G7-Hz2" customClass="programming" sceneMemberID="viewController">
+                <viewController id="x7j-G7-Hz2" customClass="food" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pfU-im-Aqy"/>
                         <viewControllerLayoutGuide type="bottom" id="2vd-Pk-9n7"/>
@@ -204,20 +207,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0h-FI-m4L">
-                                <rect key="frame" x="277" y="550" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Home"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eh2-Li-L62">
-                                <rect key="frame" x="180" y="67" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taters" translatesAutoresizingMaskIntoConstraints="NO" id="eh2-Li-L62">
+                                <rect key="frame" x="20" y="67" width="560" height="253"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I like to program Games!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHx-NE-S7K">
-                                <rect key="frame" x="207" y="318" width="195" height="57"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food is good.  I like food. Mashed potates, fish, chicken, all of it." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHx-NE-S7K">
+                                <rect key="frame" x="29" y="328" width="540" height="129"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0h-FI-m4L">
+                                <rect key="frame" x="224" y="538" width="152" height="42"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Home" backgroundImage="woodb2">
+                                    <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -227,4 +232,12 @@
             <point key="canvasLocation" x="974" y="577"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="232demogorgon5e" width="1022" height="555"/>
+        <image name="jhigh" width="266" height="190"/>
+        <image name="krush" width="259" height="194"/>
+        <image name="psych" width="282" height="178"/>
+        <image name="taters" width="225" height="225"/>
+        <image name="woodb2" width="171" height="75"/>
+    </resources>
 </document>
