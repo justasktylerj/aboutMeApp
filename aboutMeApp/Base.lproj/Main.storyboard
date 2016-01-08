@@ -112,7 +112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIb-IM-Aj0">
-                                <rect key="frame" x="246" y="560" width="108" height="32"/>
+                                <rect key="frame" x="246" y="547" width="108" height="45"/>
                                 <state key="normal" title="Home" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
