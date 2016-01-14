@@ -7,7 +7,3 @@
 //
 
 import Foundation
-class TVShowsViewController : UIViewController
-{
-
-}

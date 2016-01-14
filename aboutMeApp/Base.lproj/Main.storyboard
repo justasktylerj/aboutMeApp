@@ -22,6 +22,9 @@
                                 <state key="normal" title="Home" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="lxQ-HW-l0g"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My favorite game is Dungeons &amp; Dragons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPU-sm-oEA">
                                 <rect key="frame" x="101" y="325" width="407" height="126"/>
@@ -38,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1z-bf-TD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-501" y="-119"/>
+            <point key="canvasLocation" x="-635" y="-7"/>
         </scene>
         <!--About Me App View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -57,30 +60,45 @@
                                 <state key="normal" title="Games" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="CHk-K4-cTl" kind="presentation" id="w8W-97-mGG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYw-4B-Q0x">
                                 <rect key="frame" x="24" y="212" width="549" height="112"/>
                                 <state key="normal" title="VideoGames" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="KJD-eZ-Bgg" kind="presentation" id="AGd-cz-h6A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBI-fT-MoO">
                                 <rect key="frame" x="24" y="332" width="549" height="97"/>
                                 <state key="normal" title="School" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ELe-um-Y3d" kind="presentation" id="vAa-dl-T1l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ln7-Qv-wc8">
                                 <rect key="frame" x="24" y="437" width="549" height="102"/>
-                                <state key="normal" title="Programming" backgroundImage="woodb2">
+                                <state key="normal" title="TV shows" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZC4-RJ-mOI" kind="presentation" id="EY7-CT-FiX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DST-sy-OyM">
                                 <rect key="frame" x="24" y="20" width="549" height="81"/>
                                 <state key="normal" title="Food" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="x7j-G7-Hz2" kind="presentation" id="XYY-Lg-srH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -107,6 +125,9 @@
                                 <state key="normal" title="Home" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="DXO-y2-9kR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I attened Jordan High School as a Senior" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xa-fr-w0J">
                                 <rect key="frame" x="129" y="342" width="346" height="101"/>
@@ -115,7 +136,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jhigh" translatesAutoresizingMaskIntoConstraints="NO" id="PiK-Fh-ZBp">
-                                <rect key="frame" x="142" y="20" width="388" height="242"/>
+                                <rect key="frame" x="56" y="20" width="474" height="242"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -123,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78j-iV-pfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-501" y="566"/>
+            <point key="canvasLocation" x="-463" y="718"/>
         </scene>
         <!--Shows View Controller-->
         <scene sceneID="SUC-uA-tTg">
@@ -151,6 +172,9 @@
                                 <state key="normal" title="Home" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Lg0-lf-Rhl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -158,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epG-Ho-J65" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="-112"/>
+            <point key="canvasLocation" x="1000" y="-201"/>
         </scene>
         <!--Video Games View Controller-->
         <scene sceneID="OAr-66-3GF">
@@ -186,6 +210,9 @@
                                 <state key="normal" title="Home" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="CCJ-o2-1PC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -193,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pb1-Ux-96P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="233" y="713"/>
+            <point key="canvasLocation" x="139" y="795"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="pyj-z5-cQB">
@@ -222,6 +249,9 @@
                                 <state key="normal" title="Home" backgroundImage="woodb2">
                                     <color key="titleColor" red="1" green="0.78563846339999999" blue="0.34869258739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="NBQ-ZD-Chg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -229,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Tz-DX-AsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="577"/>
+            <point key="canvasLocation" x="907" y="647"/>
         </scene>
     </scenes>
     <resources>
@@ -240,4 +270,7 @@
         <image name="taters" width="225" height="225"/>
         <image name="woodb2" width="171" height="75"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="NBQ-ZD-Chg"/>
+    </inferredMetricsTieBreakers>
 </document>
